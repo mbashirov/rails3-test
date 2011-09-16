@@ -1,0 +1,9 @@
+<%= form_tag session_path, :method => :post do -%>
+  <br/>
+  <div style="float: right;"><%= text_field_tag "domain" -%></div>
+  <br/><br/>
+  <div style="float: right;"><%= submit_tag "enter" %></div>
+  <div style="clear: both"></div>
+  <br/>
+  <%= "." %>
+<% end -%>
